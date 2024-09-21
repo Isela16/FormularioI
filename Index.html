@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="respuesta.html" method="get" target="_blank" name="formulario1">
+        <div>
+            <h1>Formulario Consultar Cliente</h1><br>
+        </div>
+        <div>
+            <label for="nombre">Digite el nombre del Cliente</label>
+        </div>
+        <div>
+            <input type="text" name="nombre" placeholder="Digite"><br>
+        </div>
+        <div>
+            <label><h6>"Usar solo Texto</h6><br></label>
+        </div>
+        <div>
+            <label for="apellido">Digite el apellido del Cliente</label>
+        </div>
+        <div>
+            <input type="text" name="apellido" placeholder="Digite">
+        </div>
+        <div>
+            <label><h6>"Usar solo Texto</h6><br></label>
+        </div>
+        <div>
+            <label for="apellido">Digite la cédula del Cliente</label>
+        </div>
+        <div>
+            <input type="text" name="cedula" placeholder="Digite">
+        </div>
+        <div class="form-group">
+            <label for="genero">Género</label>
+            <select class="form-control" name="genero" id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>¿Donde vives?:</legend><br>
+                <input type="checkbox" id="femenino" name="genero" value="femenino">
+                <label for="checkbox">Cucuta</label><br>
+                <input type="checkbox" id="masculino" name="genero" value="masculino">
+                <label for="checkbox">Bucaramanga</label><br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>¿Te gustaría mudarte?</legend><br>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Si</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">No</label><br>
+            </fieldset>   
+        </div>
+        <div>
+            <input id="animacionBoton" type="submit" value="Enviar" name="Enviar">
+        </div>
+        <div>
+            <input id="animacion" type="submit" value="Cancelar" name="Cancelar">
+        </div><br>
+        
+    </form>
+</body>
+</html>
