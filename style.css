@@ -1,0 +1,73 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Centrar el formulario */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180vh; /* Altura completa de la ventana */
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Espacio entre los campos */
+div {
+    margin-bottom: 20px;
+}
+
+/* Estilo de los inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #ff0000;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Sombra azul alrededor del input */
+    transition: border-color 0.3s ease;
+}
+
+/* Estilo de los botones */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Animaciones al hacer hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Transición al hacer click */
+input[type="submit"]:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
